@@ -1,0 +1,17 @@
+{
+  "name": "copenhagen-university/ku-sitewizard",
+  "type": "typo3-cms-extension",
+  "require": {
+    "copenhagen-university/ku-core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CopenhagenUniversity\\SiteWizard\\": "Classes"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "ku_sitewizard"
+    }
+  }
+}
